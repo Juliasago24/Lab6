@@ -10,7 +10,7 @@ public class Main {
         int minutos = locaDate.getMinute();
         int segundos = locaDate.getSecond();
         System.out.println("Hora actual : " + horas  + ":"+ minutos +":"+segundos);
-        System.out.println("Hello world!");
+        
         System.out.println("Please,please, please introduce your name:");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
